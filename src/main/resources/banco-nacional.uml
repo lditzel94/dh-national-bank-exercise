@@ -2,12 +2,41 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="-1567.2712344280862" y="-534.2236983012459">org.example.core.Account</node>
+    <node x="-1165.4074745186863" y="-311.0360992072483">org.example.core.CurrentAccount</node>
+    <node x="-1574.7712344280862" y="-996.2063986409967">org.example.core.Client</node>
+    <node x="-1166.9074745186863" y="-674.6698754246886">org.example.core.SavingsBank</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="0.0" y="0.0" />
+  <edges>
+    <edge source="org.example.core.CurrentAccount" target="org.example.core.Account" relationship="GENERALIZATION">
+      <point x="-137.99975545401867" y="7.995470019750428E-5" />
+      <point x="-1283.0" y="-255.0360192525481" />
+      <point x="-1283.0" y="-403.224" />
+      <point x="110.50023442808629" y="-3.016987540718219E-4" />
+    </edge>
+    <edge source="org.example.core.Account" target="org.example.core.Client" relationship="TO_ONE">
+      <point x="0.0" y="-131.0" />
+      <point x="0.0" y="193.5" />
+    </edge>
+    <edge source="org.example.core.SavingsBank" target="org.example.core.Account" relationship="GENERALIZATION">
+      <point x="2.163080407626694E-4" y="-68.49963306908268" />
+      <point x="-1027.4072582106455" y="-551.724" />
+      <point x="-1283.0" y="-551.724" />
+      <point x="-1283.0" y="-403.224" />
+      <point x="110.50023442808629" y="-3.016987540718219E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9481879194630873" showDependencies="true" x="-1442.9136466591167" y="-614.1017836919593" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

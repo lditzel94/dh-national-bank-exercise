@@ -1,4 +1,6 @@
-package org.example;
+package org.example.core;
+
+import org.example.exceptions.InsufficientBalanceException;
 
 public abstract class Account {
 
@@ -10,7 +12,7 @@ public abstract class Account {
         this.client = client;
     }
 
-    public abstract void extract( double amount );
+    public abstract void extract( double amount ) throws InsufficientBalanceException;
 
     public void deposit( double amount ) {
         balance += amount;

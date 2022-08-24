@@ -2,11 +2,11 @@ package org.example.core;
 
 import org.example.exceptions.InsufficientBalanceException;
 
-public class SavingsBank extends Account {
+public class SavingsAccount extends Account {
 
     private int interestRate;
 
-    public SavingsBank( double balance, Client client, int interestRate ) {
+    public SavingsAccount( double balance, Client client, int interestRate ) {
         super( balance, client );
         this.interestRate = interestRate;
     }
