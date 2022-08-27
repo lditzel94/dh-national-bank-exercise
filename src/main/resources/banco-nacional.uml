@@ -3,32 +3,22 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-1567.2712344280862" y="-534.2236983012459">org.example.core.Account</node>
-    <node x="-1165.4074745186863" y="-311.0360992072483">org.example.core.CurrentAccount</node>
-    <node x="-1574.7712344280862" y="-996.2063986409967">org.example.core.Client</node>
-    <node x="-1166.9074745186863" y="-674.6698754246886">org.example.core.SavingsBank</node>
+    <node x="-685.9296644960364" y="-61.345767950170284">org.example.core.CurrentAccount</node>
+    <node x="-1095.2934244054363" y="-746.5160673839187">org.example.core.Client</node>
+    <node x="-1087.7934244054363" y="-284.5333670441679">org.example.core.Account</node>
   </nodes>
   <notes />
   <edges>
     <edge source="org.example.core.CurrentAccount" target="org.example.core.Account" relationship="GENERALIZATION">
-      <point x="-137.99975545401867" y="7.995470019750428E-5" />
-      <point x="-1283.0" y="-255.0360192525481" />
-      <point x="-1283.0" y="-403.224" />
-      <point x="110.50023442808629" y="-3.016987540718219E-4" />
+      <point x="-138.0" y="-24.68759909399762" />
+      <point x="110.5" y="123.5" />
     </edge>
     <edge source="org.example.core.Account" target="org.example.core.Client" relationship="TO_ONE">
       <point x="0.0" y="-131.0" />
       <point x="0.0" y="193.5" />
     </edge>
-    <edge source="org.example.core.SavingsBank" target="org.example.core.Account" relationship="GENERALIZATION">
-      <point x="2.163080407626694E-4" y="-68.49963306908268" />
-      <point x="-1027.4072582106455" y="-551.724" />
-      <point x="-1283.0" y="-551.724" />
-      <point x="-1283.0" y="-403.224" />
-      <point x="110.50023442808629" y="-3.016987540718219E-4" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic Compact" zoom="0.9481879194630873" showDependencies="true" x="-1442.9136466591167" y="-614.1017836919593" />
+  <settings layout="Hierarchic Compact" zoom="0.5526845965770173" showDependencies="true" x="-584.4290766991421" y="-232.71330377010577" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>

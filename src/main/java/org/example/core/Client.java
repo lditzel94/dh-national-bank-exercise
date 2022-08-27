@@ -6,6 +6,13 @@ public class Client {
     private String DNI;
     private String CUIT;
 
+    public Client( int clientNumber, String lastName, String DNI, String CUIT ) {
+        this.clientNumber = clientNumber;
+        this.lastName = lastName;
+        this.DNI = DNI;
+        this.CUIT = CUIT;
+    }
+
     public int getClientNumber() {
         return clientNumber;
     }
